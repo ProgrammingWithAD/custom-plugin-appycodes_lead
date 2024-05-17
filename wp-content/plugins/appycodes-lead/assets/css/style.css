@@ -1,0 +1,95 @@
+/* Form Styles */
+#appycodes-lead-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#appycodes-lead-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#appycodes-lead-form input[type="text"],
+#appycodes-lead-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+#appycodes-lead-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#appycodes-lead-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.appycodes-lead-message {
+    margin-bottom: 15px;
+}
+
+.spinner {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Admin Page Styles */
+.wrap {
+    margin: 20px;
+}
+
+.wrap h1 {
+    margin-bottom: 20px;
+}
+
+.wrap form {
+    margin-bottom: 20px;
+}
+
+.wrap input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.wrap table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.wrap table th,
+.wrap table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.wrap table th {
+    background-color: #f2f2f2;
+}
+
+.wrap .button {
+    margin-bottom: 20px;
+}
+
+.wrap .form-table th {
+    font-weight: bold;
+}
+
+.wrap .form-table td p.description {
+    font-style: italic;
+    color: #666;
+}
